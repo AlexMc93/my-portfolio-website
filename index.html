@@ -3,11 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/dda272bf44.js" crossorigin="anonymous"></script>
     <title>Alex McCarrick Software Developer</title>
-    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Alex's Portfolio Site</h1>
-    <p>Welcome to my website. Please enjoy your stay</p>
+    <header>
+        <div class="logo">
+            <img src="img/" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section_title section_title-intro">
+            Hi, I'm <strong>Alex McCarrick</strong>
+        </h1>
+        <p class="section_subtitle-intro">software developer</p>
+        <img src="images/alex-profile.jpg" alt="a picture of Alex McCarrick smiling" class="intro_img">
+    </section>
+
+
+    <!-- Projects -->
+    <section class="my-projects" id="projects">
+        <h2 class="section_title-projects">My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <a href="#" class="portfolio_item">
+                    <img src="img/" alt="">
+                </a>
+                <p class="portfolio_description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.</p>
+            </div> <!-- / column -->
+
+            <div class="project">
+                <h3>Project 2</h3>
+                <a href="#" class="portfolio_item">
+                    <img src="img/" alt="">
+                </a>
+                <p class="portfolio_description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.</p>
+            </div> <!-- / column -->
+
+            <div class="project">
+                <h3>Project 3</h3>
+                <a href="#" class="portfolio_item">
+                    <img src="img/" alt="">
+                </a>
+                <p class="portfolio_description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.</p>
+            </div> <!-- / column -->
+        </div> <!-- / project -->
+
+        <a href="https://github.com/AlexMc93" class="btn">See more on Github!</a> 
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2 class="section_title-about">About Me</h2>
+        <p class="section_subtitle-about">Here is some stuff about me</p>
+
+        <div class="about-me_body">
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <img src="img/" alt="">
+
+    </section>
+
+
+    <footer>
+        <a href="mailto:alex_mccarrick@hotmail.com" class="footer_link">Email me!</a>
+        <ul class="social-list">
+            <li class="social-list_item"><a href="https://github.com/AlexMc93" class="social-list_link">github</a></li>
+            <li class="social-list_item"><a href="https://twitter.com/AlexMacca1" class="social-list_link">twitter</a></li>
+            <li class="social-list_item"><a href="https://www.linkedin.com/in/alex-mccarrick-2183431bb/" class="social-list_link">linkedin</a></li>
+            <li class="social-list_item"><a href="https://www.instagram.com/alexjmccarrick/" class="social-list_link">instagram</a></li>
+        </ul>
+    </footer>
+
+
 </body>
 </html>
