@@ -170,15 +170,14 @@ header {
     font-weight: var(--fw-bold);
     font-size: var(--fs-h3);
     text-decoration: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 50px;
-    text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-    .rwd-break { display: none; }
+@media (max-width: 600px) {
+    .nav_link + .nav_link {
+        margin-left: 1em;
+    }
 }
+
 
 .nav_link:hover {
     color: var(--clr-accent);
