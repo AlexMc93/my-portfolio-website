@@ -172,9 +172,22 @@ header {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
-    .nav_link + .nav_link {
-        margin-left: 1em;
+@media only screen and (max-width: 600px) {
+    .nav {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 20px;
+        grid-template-areas: 
+            "title img"
+            "subtitle img"
+            "text img";
+        grid-column-gap: 0.5em;
+    }
+    .nav_link {
+        font-size: 0.75rem;
+    }
+    .section_title-intro strong {
+        font-size: 3rem;
     }
 }
 
