@@ -170,6 +170,14 @@ header {
     font-weight: var(--fw-bold);
     font-size: var(--fs-h3);
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .rwd-break { display: none; }
 }
 
 .nav_link:hover {
@@ -388,7 +396,7 @@ header {
 
 
 .footer {
-    background: #111;
+    background: var(--clr-dark);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
