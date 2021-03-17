@@ -347,7 +347,7 @@ header {
 }
 
 .projects {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 .project {
@@ -457,4 +457,21 @@ header {
 .social-list_item:hover {
     opacity: 0.7;
     transform: scale(1.15);
+}
+
+.about_link {
+    text-decoration: none;
+    color: black;
+}
+
+.about_link:hover {
+    text-decoration: underline;
+}
+
+.video {
+    align-self: center;
+    width: 60%;
+    height: auto;
+    min-height: 240px;
+    max-width: 480px;
 }
